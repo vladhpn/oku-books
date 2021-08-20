@@ -1,0 +1,27 @@
+@import '../../res/scss/variables';
+
+.container {
+  margin: 0 88px 140px;
+}
+
+.title {
+  padding-top: 175px;
+  margin-bottom: 28px;
+  text-align: center;
+  font-family: $font-primary;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 1;
+}
+
+.text {
+  margin: 0 250px 40px;
+  color: $text-primary;
+  font-family: $font-secondary;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 1.7;
+}

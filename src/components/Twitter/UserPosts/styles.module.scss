@@ -1,0 +1,69 @@
+@import '../../../res/scss/variables';
+
+.box {
+  width: 420px;
+  border: 1px solid #e8e8e9;
+  box-sizing: border-box;
+  border-radius: 8px;
+  &:first-child {
+    margin: 0 0 24px 151px;
+  }
+  &:last-child {
+    margin-right: 170px;
+  }
+}
+
+.box_container {
+  margin: 23px 25px;
+}
+
+.box_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.box_flex {
+  display: flex;
+}
+
+.name {
+  margin-left: 16px;
+  color: $text-primary;
+  font-family: $font-secondary;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.teg {
+  margin-left: 14px;
+  color: $text-secondary;
+  font-family: $font-secondary;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.text {
+  margin-top: 16px;
+  text-align: start;
+  color: $text-primary;
+  font-family: $font-secondary;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.date {
+  margin-top: 22px;
+  color: $text-secondary;
+  font-family: $font-secondary;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.image {
+  width: 36px;
+  height: 36px;
+}

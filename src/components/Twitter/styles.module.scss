@@ -1,0 +1,43 @@
+@import '../../res/scss/variables';
+.section {
+  text-align: center;
+  padding: 130px 0 62px;
+  position: relative;
+}
+
+.section::after {
+  content: '';
+  position: absolute;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 960px;
+  border-bottom: 1px solid #e8e8e9;
+}
+
+.container {
+  display: flex;
+  margin-right: 88px;
+  margin-left: 88px;
+}
+
+.title {
+  padding: 65px 0 26px;
+  margin: 0 151px 0 150px;
+  text-align: inherit;
+  color: $text-primary;
+  font-family: $font-primary;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+}
+
+.text {
+  margin: 0 58px 0 150px;
+  text-align: inherit;
+  color: $text-secondary;
+  font-family: $font-secondary;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 30px;
+}

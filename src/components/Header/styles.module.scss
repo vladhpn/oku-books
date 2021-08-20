@@ -1,0 +1,41 @@
+@import '../../res/scss/variables';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border: 1px solid $bg-primary;
+}
+
+.logo {
+  margin: 33px 0 0 24px;
+}
+
+.nav_list {
+  display: flex;
+}
+
+.nav_items {
+  &:not(:last-child) {
+    margin-right: 32px;
+  }
+}
+
+.text {
+  color: $text-primary;
+  font-family: $font-secondary;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.button {
+  min-width: 112px;
+  height: 40px;
+  padding: 10px 32px;
+  margin: 0 16px 20px 0;
+  border: none;
+  box-shadow: 0px 0px 0px rgba(19, 19, 20, 0.22);
+  border-radius: 8px;
+  background: $text-white;
+}

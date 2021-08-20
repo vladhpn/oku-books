@@ -1,0 +1,52 @@
+@import '../../res/scss/variables';
+
+.hero {
+  background-image: url('../../images/hero.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.box {
+  padding: 0 0 260px 88px;
+}
+
+.title_box {
+  width: 437px;
+}
+
+.title {
+  padding-top: 319px;
+  margin-bottom: 29px;
+  font-family: $font-primary;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 1;
+}
+
+.text {
+  color: $text-primary;
+  font-family: $font-secondary;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.button {
+  margin-top: 24px;
+  min-width: 112px;
+  height: 40px;
+  padding: 10px 32px;
+  margin: 0 16px 20px 0;
+  border: none;
+  box-shadow: 0px 0px 0px rgba(19, 19, 20, 0.22);
+  border-radius: 8px;
+  background: $text-white;
+}
+
+.p_text {
+  margin-top: 24px;
+  color: $text-secondary;
+  font-family: $font-secondary;
+  font-size: 13px;
+}

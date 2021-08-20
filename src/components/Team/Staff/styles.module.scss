@@ -1,0 +1,33 @@
+@import '../../../res/scss/variables';
+.list {
+  display: flex;
+  justify-content: center;
+}
+
+.items {
+  &:not(:last-child) {
+    margin-right: 102px;
+  }
+}
+
+.name {
+  padding-top: 24px;
+  color: $text-primary;
+  font-family: $font-secondary;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.location {
+  padding-top: 3px;
+  color: $text-secondary;
+  font-family: $font-secondary;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.7;
+}

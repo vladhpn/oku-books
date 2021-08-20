@@ -1,0 +1,80 @@
+@import '../../res/scss/variables';
+
+.footer {
+  background-color: #f6f6f6;
+
+  padding-top: 120px;
+  background-image: url('../../images/bg1.png'), url('../../images/bg2.png'),
+    url('../../images/bg3.png'), url('../../images/bg4.png'),
+    url('../../images/bg5.png');
+  background-repeat: no-repeat;
+  background-position: top 4% left 12.78%, top 200px right 7%,
+    bottom 10% left 7%, bottom 3% right, top;
+}
+
+.title {
+  margin-top: 200px;
+  text-align: center;
+  font-family: $font-primary;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 1;
+}
+
+.text {
+  margin-top: 15px;
+  text-align: center;
+  color: $text-secondary;
+  font-family: $font-secondary;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+}
+
+.quote {
+  margin-top: 4px;
+  text-align: center;
+  color: $text-secondary;
+  font-family: $font-secondary;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 2.7;
+}
+
+.box {
+  margin: 24px 0 192px;
+  text-align: center;
+}
+.footer_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 176px;
+  padding-bottom: 28px;
+}
+.list {
+  display: flex;
+}
+
+.item {
+  color: $decoration;
+  font-family: $font-secondary;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  &:not(:last-child) {
+    margin-right: 24px;
+  }
+}
+
+.copyright {
+  color: $text-secondary;
+  font-family: $font-secondary;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 0.07;
+}
