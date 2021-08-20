@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/oku-books/static/css/main.501b41ab.chunk.css",
+    "main.js": "/oku-books/static/js/main.74e6e7c5.chunk.js",
+    "main.js.map": "/oku-books/static/js/main.74e6e7c5.chunk.js.map",
+    "runtime-main.js": "/oku-books/static/js/runtime-main.95910938.js",
+    "runtime-main.js.map": "/oku-books/static/js/runtime-main.95910938.js.map",
+    "static/js/2.d9618bad.chunk.js": "/oku-books/static/js/2.d9618bad.chunk.js",
+    "static/js/2.d9618bad.chunk.js.map": "/oku-books/static/js/2.d9618bad.chunk.js.map",
+    "index.html": "/oku-books/index.html",
+    "static/css/main.501b41ab.chunk.css.map": "/oku-books/static/css/main.501b41ab.chunk.css.map",
+    "static/js/2.d9618bad.chunk.js.LICENSE.txt": "/oku-books/static/js/2.d9618bad.chunk.js.LICENSE.txt",
+    "static/media/bg1.png": "/oku-books/static/media/bg1.36b9b539.png",
+    "static/media/bg2.png": "/oku-books/static/media/bg2.a76d1d1f.png",
+    "static/media/bg3.png": "/oku-books/static/media/bg3.2a91ea26.png",
+    "static/media/bg4.png": "/oku-books/static/media/bg4.4aa8266b.png",
+    "static/media/styles.module.scss": "/oku-books/static/media/hero.07d7a8f6.jpg",
+    "static/media/image1.png": "/oku-books/static/media/image1.579657e7.png",
+    "static/media/image2.png": "/oku-books/static/media/image2.7fee229f.png",
+    "static/media/image3.png": "/oku-books/static/media/image3.6357ea6e.png",
+    "static/media/image4.png": "/oku-books/static/media/image4.7e8582cb.png",
+    "static/media/image5.png": "/oku-books/static/media/image5.ec69de86.png",
+    "static/media/image6.png": "/oku-books/static/media/image6.84ad0bcc.png",
+    "static/media/logo.7085594e.svg": "/oku-books/static/media/logo.7085594e.svg",
+    "static/media/team1.png": "/oku-books/static/media/team1.0f1be4ff.png",
+    "static/media/team2.png": "/oku-books/static/media/team2.2bffccfe.png",
+    "static/media/twitter.a6bfc35b.svg": "/oku-books/static/media/twitter.a6bfc35b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95910938.js",
+    "static/js/2.d9618bad.chunk.js",
+    "static/css/main.501b41ab.chunk.css",
+    "static/js/main.74e6e7c5.chunk.js"
+  ]
+}
